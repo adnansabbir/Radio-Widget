@@ -1,3 +1,109 @@
 .radio-widget{
+    -webkit-box-shadow: 0 15px 30px -3px rgba(0,0,0,0.96);
+    box-shadow: 0 15px 30px -3px rgba(0,0,0,0.96);
 
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: #9da6b9;
+}
+
+.button{
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+}
+
+.header{
+    background-color: #edad61;
+    box-sizing: border-box;
+    height: 100px;
+    min-height: 100px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header .title{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.station-list{
+    background-color: #2f2f3a;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 18px;
+    overflow: auto;
+}
+
+.station{
+    border-top: 1px solid #43434d;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.station .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.station .details .playing-station-image{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.station .summary{
+    /*height: 60px;*/
+    font-size: 1.5rem;
+    color: #a2abbd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.station:first-child{
+    border-top: none;
+}
+
+.footer{
+    background-color: #22222b;
+    box-sizing: border-box;
+    border-top: 2px solid #4d505c;
+    height: 100px;
+    min-height: 100px;
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .title{
+    color: #edad61;
+    font-weight: bold;
+}
+
+.footer .station-name{
+    font-size: 1.5rem;
 }
