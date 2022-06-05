@@ -8,4 +8,4 @@
 
 ## Screenshots
 ![Screenshot1](https://adnansabbir.github.io/Radio-Widget/assets/images/ss1.png?raw=true)
-![Screenshot2](https://adnansabbir.github.io/Radio-Widget/assets/images/ss2.png?raw=true)
+![Screenshot2](https://adnansabbir.github.io/Radio-Widget/assets/images/ss3.png?raw=true)
