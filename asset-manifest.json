@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.48a1ebe8.css",
-    "main.js": "/static/js/main.e393e311.js",
-    "static/js/787.f52c4d9e.chunk.js": "/static/js/787.f52c4d9e.chunk.js",
-    "index.html": "/index.html",
-    "main.48a1ebe8.css.map": "/static/css/main.48a1ebe8.css.map",
-    "main.e393e311.js.map": "/static/js/main.e393e311.js.map",
-    "787.f52c4d9e.chunk.js.map": "/static/js/787.f52c4d9e.chunk.js.map"
+    "main.css": "/Radio-Widget/static/css/main.48a1ebe8.css",
+    "main.js": "/Radio-Widget/static/js/main.fbfa80ac.js",
+    "static/js/787.f52c4d9e.chunk.js": "/Radio-Widget/static/js/787.f52c4d9e.chunk.js",
+    "index.html": "/Radio-Widget/index.html",
+    "main.48a1ebe8.css.map": "/Radio-Widget/static/css/main.48a1ebe8.css.map",
+    "main.fbfa80ac.js.map": "/Radio-Widget/static/js/main.fbfa80ac.js.map",
+    "787.f52c4d9e.chunk.js.map": "/Radio-Widget/static/js/787.f52c4d9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48a1ebe8.css",
-    "static/js/main.e393e311.js"
+    "static/js/main.fbfa80ac.js"
   ]
 }
