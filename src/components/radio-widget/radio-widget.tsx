@@ -24,9 +24,9 @@ const Station: React.FC<StationProps> = (station) => {
         <div className="station" onClick={onClick}>
             {currentlyPlaying && (<>
                 <div className="details">
-                    <img className="button" src="/assets/icons/minus.png" alt="volume_down"/>
+                    <img className="button" src="./assets/icons/minus.png" alt="volume_down"/>
                     <div className="playing-station-image" style={{backgroundImage: `url('${imageUrl}')`}}/>
-                    <img className="button" src="/assets/icons/plus.png" alt="volume_down"/>
+                    <img className="button" src="./assets/icons/plus.png" alt="volume_down"/>
                 </div>
             </>)}
             <div className="summary">
@@ -46,9 +46,9 @@ const RadioWidget:React.FC<RadioWidgetProps> = ({stations, currentlyPlayingStati
     return (
         <div className="radio-widget">
             <div className="header">
-                <img className="button" src="/assets/icons/back-arrow.png" alt="back_button"/>
+                <img className="button" src="./assets/icons/back-arrow.png" alt="back_button"/>
                 <span className="title">STATIONS</span>
-                <img className="button" src="/assets/icons/switch.png" alt="back_button"/>
+                <img className="button" src="./assets/icons/switch.png" alt="back_button"/>
             </div>
             {
                 loading && (
